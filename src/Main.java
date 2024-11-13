@@ -6,7 +6,7 @@ public class Main {
         for (int i = 0; i <n ; i++) {
             if (A[i]!=0){
                 //Swap -A[j], A[i]
-                swap(A,j,i);
+                swapp(A,j,i);
                 j++;
             }
         }
@@ -16,7 +16,7 @@ public class Main {
 
     }
 
-    static void swap(int []A,int a,int b){
+    static void swapp(int []A,int a,int b){
         int temp=A[a];
         A[a]=A[b];
         A[b]=temp;
